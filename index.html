@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>ヤレカス サポート</title>
+<meta name="description" content="iPhoneアプリ「ヤレカス」のサポートページです。使い方、よくある質問、お問い合わせ、プライバシーについて掲載しています。">
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1d1d1f;
+    --sub: #6e6e73;
+    --line: #d2d2d7;
+    --soft: #f5f5f7;
+    --blue: #0071e3;
+    --blue-press: #0062c4;
+    --radius: 18px;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Helvetica Neue", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+  }
+  .wrap {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 0 max(20px, env(safe-area-inset-right)) 64px max(20px, env(safe-area-inset-left));
+  }
+  header.hero {
+    text-align: center;
+    padding: 64px 0 40px;
+    border-bottom: 1px solid var(--line);
+  }
+  .eyebrow { color: var(--sub); font-size: 15px; font-weight: 600; margin: 0 0 6px; }
+  h1 { font-size: 40px; line-height: 1.15; margin: 0 0 12px; font-weight: 700; letter-spacing: -0.01em; }
+  .lead { color: var(--sub); font-size: 19px; margin: 0; }
+  section { padding: 40px 0 8px; scroll-margin-top: 16px; }
+  h2 { font-size: 28px; line-height: 1.25; margin: 0 0 16px; font-weight: 700; letter-spacing: -0.005em; }
+  h3 { font-size: 19px; line-height: 1.4; margin: 24px 0 8px; font-weight: 600; }
+  p { margin: 0 0 14px; }
+  ul, ol { margin: 0 0 14px; padding-left: 1.4em; }
+  li { margin: 4px 0; }
+  .note { color: var(--sub); font-size: 15px; }
+  .card {
+    background: var(--soft);
+    border-radius: var(--radius);
+    padding: 20px 22px;
+    margin: 0 0 14px;
+  }
+  .card > :last-child { margin-bottom: 0; }
+  nav.toc { padding: 32px 0 8px; }
+  nav.toc h2 { font-size: 21px; margin-bottom: 10px; }
+  nav.toc ol { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--line); }
+  nav.toc li { margin: 0; border-bottom: 1px solid var(--line); }
+  nav.toc a {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 13px 2px; color: var(--text); text-decoration: none; min-height: 44px;
+  }
+  nav.toc a::after { content: "›"; color: var(--sub); font-size: 22px; line-height: 1; }
+  nav.toc a:active { background: var(--soft); }
+  table.plans { width: 100%; border-collapse: collapse; margin: 0 0 14px; font-size: 16px; }
+  table.plans th, table.plans td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  table.plans th { color: var(--sub); font-weight: 600; font-size: 14px; }
+  details {
+    border-bottom: 1px solid var(--line);
+    padding: 4px 0;
+  }
+  details:first-of-type { border-top: 1px solid var(--line); }
+  summary {
+    cursor: pointer; list-style: none; padding: 12px 28px 12px 2px; font-weight: 600;
+    position: relative; min-height: 44px;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::after {
+    content: "+"; position: absolute; right: 4px; top: 50%; transform: translateY(-50%);
+    color: var(--blue); font-size: 22px; font-weight: 400;
+  }
+  details[open] summary::after { content: "−"; }
+  details > div { padding: 0 2px 12px; }
+  .mail {
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    background: var(--blue); color: #fff; text-decoration: none;
+    font-size: 17px; font-weight: 600; padding: 14px 28px; min-height: 50px;
+    border-radius: 999px; width: 100%; max-width: 360px;
+  }
+  .mail:hover { background: var(--blue-press); }
+  .mail:active { transform: scale(0.98); }
+  .mail svg { width: 20px; height: 20px; flex: none; }
+  .center { text-align: center; }
+  .version { font-weight: 600; }
+  footer { color: var(--sub); font-size: 13px; text-align: center; padding: 40px 0 0; border-top: 1px solid var(--line); margin-top: 32px; }
+  @media (max-width: 480px) {
+    body { font-size: 16px; }
+    header.hero { padding: 44px 0 28px; }
+    h1 { font-size: 32px; }
+    .lead { font-size: 17px; }
+    h2 { font-size: 24px; }
+    section { padding-top: 32px; }
+    table.plans { font-size: 15px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <p class="eyebrow">iPhoneアプリ サポート</p>
+  <h1>ヤレカス</h1>
+  <p class="lead">アプリを開く前に、今日の予定を確認する。</p>
+</header>
+
+<nav class="toc" aria-label="もくじ">
+  <h2>もくじ</h2>
+  <ol>
+    <li><a href="#overview">アプリ概要</a></li>
+    <li><a href="#features">主な機能</a></li>
+    <li><a href="#howto">使い方</a></li>
+    <li><a href="#faq">よくある質問（FAQ）</a></li>
+    <li><a href="#updates">更新情報</a></li>
+    <li><a href="#contact">お問い合わせ</a></li>
+    <li><a href="#privacy">プライバシー</a></li>
+  </ol>
+</nav>
+
+<section id="overview">
+  <h2>アプリ概要</h2>
+  <p>ヤレカスは、今日の予定を時刻順に一覧できる予定アプリです。iPhoneのスクリーンタイムの仕組みを使って、選んだアプリを制限できます。制限中のアプリを開こうとすると、先に今日の予定を確認してから使う流れになります。</p>
+  <div class="card">
+    <ul>
+      <li>対応機種：iPhone（iOS 17以降）</li>
+      <li>制限画面のボタンからヤレカスを開く機能は、iOS 26.5以降が対象です。</li>
+      <li>アカウント登録は不要です。予定などのデータはiPhoneの中に保存されます。</li>
+      <li>はじめにスクリーンタイムへのアクセス許可が必要です。</li>
+    </ul>
+  </div>
+</section>
+
+<section id="features">
+  <h2>主な機能</h2>
+
+  <h3>今日の予定の一覧</h3>
+  <p>ホームには選んだ日の予定を、開始時刻の順に表示します（時刻のない予定は最後）。週のバーで日を選べ、左右のスワイプで日や週を移動できます。予定は「時刻なし」「開始時刻のみ」「開始と終了」の3通りで登録でき、完了のチェックや編集、削除ができます。</p>
+
+  <h3>カレンダー</h3>
+  <p>月表示・拡大した月表示・年表示で予定のある日を確認できます。日付をタップすると、その日の予定一覧に戻ります。</p>
+
+  <h3>アプリの制限</h3>
+  <p>制限したいアプリ・カテゴリ・Webサイトを、iPhoneのスクリーンタイムの選択画面から登録します。登録の方法は2つあります。</p>
+  <ul>
+    <li><strong>アプリを追加</strong>：あとからアプリ内で外せます。</li>
+    <li><strong>固定して追加</strong>：アプリ内からは外せません。登録の前に確認が表示されます。</li>
+  </ul>
+
+  <h3>予定を確認して解除</h3>
+  <p>制限中のアプリを開くと「今日の予定を確認」という画面が表示されます。「予定確認で解除」を押すとヤレカスの今日の予定が開きます。そのまま30秒表示すると、開こうとしたアプリ1つだけが使えるようになります。</p>
+
+  <h3>定時の通知</h3>
+  <p>毎日 0:00／6:00／12:00／18:00／21:00 に、その日の予定を1件ずつ通知します。その日に予定がない回は通知しません。設定の「通知テスト」で、通知の届き方を試せます。</p>
+
+  <h3>ウィジェット</h3>
+  <p>ホーム画面（小・中・大）とロック画面に、今日の予定を時刻順に表示できます。</p>
+
+  <h3>プラン</h3>
+  <table class="plans">
+    <thead><tr><th>プラン</th><th>内容</th></tr></thead>
+    <tbody>
+      <tr><td>無料プラン（ks）</td><td>「解除不可」「解除可能」をそれぞれ1件まで登録できます。</td></tr>
+      <tr><td>月額プラン（エリートks）</td><td>月額300円の自動更新サブスクリプション。契約中は登録数の制限がありません。</td></tr>
+      <tr><td>買い切りプラン（Bossks）</td><td>900円。一度の購入で、登録数の制限がなくなります。</td></tr>
+      <tr><td>チッププラン（神ks）</td><td>買い切りに300円の応援チップを加えるプランです。機能は買い切りと同じです。</td></tr>
+    </tbody>
+  </table>
+  <p class="note">アプリ・カテゴリ・Webサイトは、それぞれ1件として数えます。価格は購入画面の表示が優先されます。</p>
+</section>
+
+<section id="howto">
+  <h2>使い方</h2>
+  <ol>
+    <li><strong>アクセスを許可する</strong><br>初めて開くと「はじめの設定」が表示されます。「アクセスを許可」を押し、スクリーンタイムへのアクセスを許可してください。</li>
+    <li><strong>予定を追加する</strong><br>ホーム右上の「＋」から追加します。予定の行をタップすると編集できます。</li>
+    <li><strong>制限するアプリを登録する</strong><br>ホームの「制限対象アプリ」の右にあるアイコンを押します。鍵のアイコンが「固定して追加」、「＋」が「アプリを追加」です。選択画面でアプリを選び、「登録」を押します。</li>
+    <li><strong>制限中のアプリを開く</strong><br>制限画面の「予定確認で解除」を押すと、ヤレカスの今日の予定が開きます。30秒たつと、そのアプリだけが使えるようになります。</li>
+    <li><strong>設定を確認する</strong><br>ホーム右上のメニューから設定を開くと、通知時刻・プラン・待ち時間・バージョンを確認できます。</li>
+  </ol>
+  <div class="card">
+    <p><strong>30秒の数え方</strong><br>ヤレカスの予定の画面が手前に表示されている間だけ数えます。途中でほかのアプリに移ると止まり、戻ると続きから数えます。</p>
+  </div>
+</section>
+
+<section id="faq">
+  <h2>よくある質問（FAQ）</h2>
+
+  <details>
+    <summary>「固定して追加」したアプリを外したい</summary>
+    <div><p>固定したアプリは、アプリ内からは外せない仕組みです。「固定して追加」で登録するときは確認の画面が表示されますので、内容をよくご確認ください。外せるようにしたいアプリは「アプリを追加」で登録してください。</p></div>
+  </details>
+
+  <details>
+    <summary>制限画面に予定の内容が表示されないのはなぜですか？</summary>
+    <div><p>制限画面はiOSが表示する画面で、アプリから変えられるのは見出し・短い文・ボタンの文字と色だけです。予定は「予定確認で解除」を押した先のヤレカスの画面で確認できます。</p></div>
+  </details>
+
+  <details>
+    <summary>「予定確認で解除」を押してもヤレカスが開きません</summary>
+    <div><p>制限画面のボタンからヤレカスを開く機能は、iOS 26.5以降が対象です。iOSを最新の状態にしてお試しください。</p></div>
+  </details>
+
+  <details>
+    <summary>一度解除したアプリは、いつまた制限されますか？</summary>
+    <div><p>使えるようになるのは、開こうとしたアプリ1つだけです。次にヤレカスを開いたとき、新しく予定の確認を始めたとき、日付が変わったあと、スクリーンタイムの許可が取り消されたときに終わります。それまでは、同じアプリを開き直しても確認が出ない場合があります。</p></div>
+  </details>
+
+  <details>
+    <summary>解除したあと、元のアプリに自動で戻りません</summary>
+    <div><p>元のアプリへ戻る処理は、iOSからアプリの情報が渡され、対応しているアプリの場合だけ行います。戻らない場合は、ご自身で元のアプリを開いてください。</p></div>
+  </details>
+
+  <details>
+    <summary>通知が届きません</summary>
+    <div><p>その日に予定がない回は通知しません。予定があるのに届かない場合は、iPhoneの「設定」→「通知」→「ヤレカス」で通知が許可されているか確認してください。設定の「通知テスト」でも確認できます。</p></div>
+  </details>
+
+  <details>
+    <summary>ロック画面に予定の内容が表示されます</summary>
+    <div><p>通知とウィジェットには予定の内容が表示されます。ロック画面での通知の表示は、iPhoneの「設定」→「通知」の「プレビューを表示」で変えられます。</p></div>
+  </details>
+
+  <details>
+    <summary>機種変更や再インストールのあと、購入したプランを戻したい</summary>
+    <div><p>設定の「プラン」→「プランを確認」で「購入を復元」を押してください。購入時と同じApple Accountをご利用ください。チップ（消耗型）の購入の記録は、別の端末や再インストール後に引き継げない場合があります。</p></div>
+  </details>
+
+  <details>
+    <summary>月額プランを解約したい</summary>
+    <div><p>iPhoneの「設定」→ 上部のお名前（Apple Account）→「サブスクリプション」から解約できます。買い切りプランを購入しても、月額プランは自動では解約されません。買い切りをお持ちで月額が自動更新中の場合は、ホームに案内と「月額プランの変更」ボタンが表示されます。</p></div>
+  </details>
+
+  <details>
+    <summary>月額プランが終わると、登録したアプリはどうなりますか？</summary>
+    <div><p>登録は削除されません。無料プランの枠を超えている場合は、制限を続けるアプリを「解除不可」「解除可能」からそれぞれ1件ずつ選んでいただきます。</p></div>
+  </details>
+
+  <details>
+    <summary>予定を別のiPhoneと同期できますか？</summary>
+    <div><p>できません。ヤレカスは外部のサーバーを使わず、予定をiPhoneの中だけに保存しています。</p></div>
+  </details>
+</section>
+
+<section id="updates">
+  <h2>更新情報</h2>
+  <div class="card">
+    <p class="version">バージョン 1.0.0</p>
+    <p>初回リリース。</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>お問い合わせ</h2>
+  <p>ご質問や不具合のご報告は、下のボタンからメールでお送りください。件名は自動で入力されます。iPhoneの機種・iOSのバージョン・ヤレカスのバージョンをお知らせいただくと、確認がスムーズです。</p>
+  <p class="center">
+    <a class="mail" href="mailto:&#99;&#114;&#101;&#97;&#116;&#101;&#108;&#97;&#98;&#111;&#110;&#101;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;?subject=%E3%80%90%E3%83%A4%E3%83%AC%E3%82%AB%E3%82%B9%E3%80%91%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B&amp;body=%E3%81%94%E8%B3%AA%E5%95%8F%E3%83%BB%E4%B8%8D%E5%85%B7%E5%90%88%E3%81%AE%E5%86%85%E5%AE%B9%EF%BC%9A%0D%0A%0D%0A%0D%0A%E2%80%95%E2%80%95%20%E5%88%86%E3%81%8B%E3%82%8B%E7%AF%84%E5%9B%B2%E3%81%A7%E3%81%94%E8%A8%98%E5%85%A5%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84%20%E2%80%95%E2%80%95%0D%0AiPhone%E3%81%AE%E6%A9%9F%E7%A8%AE%EF%BC%9A%0D%0AiOS%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%EF%BC%9A%0D%0A%E3%83%A4%E3%83%AC%E3%82%AB%E3%82%B9%E3%81%AE%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%EF%BC%88%E8%A8%AD%E5%AE%9A%E3%81%AE%E4%B8%80%E7%95%AA%E4%B8%8B%E3%81%AB%E8%A1%A8%E7%A4%BA%EF%BC%89%EF%BC%9A%0D%0A">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+      メールで問い合わせる
+    </a>
+  </p>
+  <p class="note center">メールアプリが開きます。開かない場合は、端末のメール設定をご確認ください。</p>
+</section>
+
+<section id="privacy">
+  <h2>プライバシー</h2>
+  <ul>
+    <li><strong>保存する情報</strong>：予定（本文・日付・時刻・完了の状態）、設定、制限対象（Appleが発行するトークン）、通知の予約状況、動作の記録をiPhoneの中だけに保存します。動作の記録には予定の本文やアプリ名を含めず、7日・400件を超えた分は消えます。</li>
+    <li><strong>制限画面の情報</strong>：制限画面が表示されたときは、解除後の案内と元のアプリへ戻る処理のため、iOSから渡されたそのアプリの名前と識別子をiPhoneの中に一時的に保存します。10分を過ぎた情報は使わず、次に保存するときに消します（最大32件）。</li>
+    <li><strong>外部への送信</strong>：開発者のサーバーへの送信はありません。解析・広告・トラッキングの仕組みも使っていません。</li>
+    <li><strong>スクリーンタイム</strong>：選んだアプリやカテゴリは、Appleが発行するトークンとして保存されます。どのアプリを選んだかを開発者が知ることはありません。</li>
+    <li><strong>通知</strong>：通知はiPhoneの中で予約し、予定の本文が表示されます。</li>
+    <li><strong>購入</strong>：購入と支払いはApp Storeで行われ、支払い情報をアプリが受け取ることはありません。Appleが署名した購入の記録と利用権の確認結果をiPhoneの中に保存し、利用できる機能の判定に使います。</li>
+    <li><strong>バックアップと削除</strong>：保存した情報はiPhoneのバックアップに含まれる場合があります。アプリを削除すると、iPhoneの中の情報も削除されます。</li>
+  </ul>
+  <p class="note">詳しくは、アプリ内の設定 →「プラン」→「プランを確認」から開けるプライバシーポリシーをご覧ください。</p>
+</section>
+
+<footer>
+  <p>ヤレカス サポート</p>
+</footer>
+
+</div>
+</body>
+</html>
